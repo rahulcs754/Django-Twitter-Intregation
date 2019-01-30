@@ -40,6 +40,10 @@ pip install -r requirements.txt
 $ python manage.py migrate
 ```
 
+#create admin username and password
+```bash
+$ python manage.py createsuperuser
+```
 
 # run main file 
 ```bash
