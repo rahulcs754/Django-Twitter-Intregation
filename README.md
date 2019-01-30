@@ -20,32 +20,38 @@ $ virtualenv virtualenv_name
 ```
 *after that you have to activate virtualenv machine by using the below command*
 
-# In linux
+In linux
+--------
 ```bash
 $ source virtualenv_name/bin/activate
 ```
-# In Windows
+In Windows
+------------
 ```bash
 $ source virtualenv_name/Scripts/activate
 ```
 
 
-# Installing list of dependencies to file
+ Installing list of dependencies to file
+-----------------------------------------
 ```bash
 pip install -r requirements.txt
 ```
 
-# create database  
+create database  
+-----------------
 ```bash
 $ python manage.py migrate
 ```
 
-# create admin username and password
+ create admin username and password
+------------------------------------
 ```bash
 $ python manage.py createsuperuser
 ```
 
-# run main file 
+run main file 
+-------------
 ```bash
 $ python manage.py runserver
 ```
