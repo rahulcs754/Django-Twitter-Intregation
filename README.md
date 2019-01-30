@@ -59,10 +59,10 @@ $ python manage.py runserver
 *Note  : Make sure you cd into the *clone* folder before performing the command above.*
 
 *Important link 
-* if you have problem related callback then you can check below link 
+*if you have problem related callback then you can check below link 
 <a href="https://django-allauth.readthedocs.io/en/latest/providers.html" target="_blank"> The Authorization callback URL takes a particular form for each integration</a>
 
-* if you want to read step by step then you can check below link
+*if you want to read step by step then you can check below link
 <a href="https://django-allauth.readthedocs.io/en/latest/providers.html" target="_blank">
  Django-allauth module</a>
 
