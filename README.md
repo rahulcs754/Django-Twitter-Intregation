@@ -20,17 +20,17 @@ $ virtualenv virtualenv_name
 ```
 *after that you have to activate virtualenv machine by using the below command*
 
-#In linux
+# In linux
 ```bash
 $ source virtualenv_name/bin/activate
 ```
-#In Windows
+# In Windows
 ```bash
 $ source virtualenv_name/Scripts/activate
 ```
 
 
-#installing list of dependencies to file
+# Installing list of dependencies to file
 ```bash
 pip install -r requirements.txt
 ```
@@ -40,7 +40,7 @@ pip install -r requirements.txt
 $ python manage.py migrate
 ```
 
-#create admin username and password
+# create admin username and password
 ```bash
 $ python manage.py createsuperuser
 ```
@@ -53,10 +53,10 @@ $ python manage.py runserver
 *Note  : Make sure you cd into the *clone* folder before performing the command above.*
 
 # Important link 
-#if you have problem related callback then you can check below link 
+# if you have problem related callback then you can check below link 
 <a href="https://django-allauth.readthedocs.io/en/latest/providers.html"> The Authorization callback URL takes a particular form for each integration</a>
 
-#if you want to read step by step then you can check below link
+# if you want to read step by step then you can check below link
 <a href="https://django-allauth.readthedocs.io/en/latest/providers.html">
  Django-allauth module</a>
 
